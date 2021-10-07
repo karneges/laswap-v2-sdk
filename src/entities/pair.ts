@@ -2,7 +2,7 @@ import { BigintIsh, Price, sqrt, Token, CurrencyAmount } from '@uniswap/sdk-core
 import invariant from 'tiny-invariant'
 import JSBI from 'jsbi'
 import { keccak256 } from '@ethersproject/solidity'
-import {defaultAbiCoder} from '@ethersproject/abi'
+import { defaultAbiCoder } from '@ethersproject/abi'
 
 import { getCreate2Address } from '@ethersproject/address'
 
